@@ -1,0 +1,7 @@
+import json
+
+json_string = '{"id":101,"name":"John Doe","age":25}'
+
+data = json.loads(json_string)
+
+print(data)
